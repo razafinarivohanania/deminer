@@ -214,3 +214,14 @@ void Board::showAllCasesContent(){
 void Board::terminateGame(){
     doGamerDecision(QMessageBox::warning(this, gameOverTitle, gameOverMessage, QMessageBox::Yes, QMessageBox::No));
 }
+
+Board::~Board(){
+    if (squares.isEmpty()) return;
+
+    int size = squares.size();
+    for (int i = 0; i < size; i++){
+        Square *square = squares.at(i);
+        if (square == NULL) continue;
+        square->deleteLater();
+    }
+}

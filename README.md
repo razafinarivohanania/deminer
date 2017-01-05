@@ -1,12 +1,12 @@
 # Overview
-It's a game like deminer on windows system. The purpose is just training to develop small program with C++.
+It's a game like deminer on windows operating system. The purpose is just training to develop small program with C++.
 
 <p align="center">
   <img src="https://s23.postimg.org/e8eune0kr/deminer.jpg" alt="Screenshot"/>
 </p>
 
 Only the basic algorithm is implemented which defines the rule game.
-* when a player click on square which contains mine, the player losts and the game is over;
+* when a player clicks on square which contains mine, the player loses and the game is over;
 * in other case, if the player never touchs mine square and there is no free square, he or she wins
 
 # Feature

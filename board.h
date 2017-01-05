@@ -16,6 +16,7 @@ class Board : public QWidget
 
 public:
     explicit Board(QWidget *parent = NULL);
+	~Board();
 
     static const int MAX_HORIZONTAL_SIZE = 30;
     static const int MAX_VERTICAL_SIZE = 30;
