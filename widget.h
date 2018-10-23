@@ -2,7 +2,7 @@
 #define WIDGET_H
 
 #include <QHBoxLayout>
-#include <QtGui/QWidget>
+#include <QWidget>
 #include <QPushButton>
 #include <QVBoxLayout>
 

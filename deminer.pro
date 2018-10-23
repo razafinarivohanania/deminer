@@ -1,4 +1,4 @@
-QT       += core gui
+QT += widgets
 
 TARGET = deminer
 TEMPLATE = app
