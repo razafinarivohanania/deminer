@@ -145,7 +145,7 @@ bool Board::hasEnoughSquarePlace(){
 }
 
 void Board::initializeVariables(){
-    congratulationMessage = "Félicitation, vous-avez gagner. :)\nVoulez-vous jouer de nouveau?";
+    congratulationMessage = "FÃ©licitation, vous-avez gagner. :)\nVoulez-vous jouer de nouveau?";
     gameOverMessage = "Vous-avez perdu! :(\nVoulez-vous jouer de nouveau?";
     gameOverTitle = "Partie finie";
 

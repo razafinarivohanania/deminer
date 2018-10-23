@@ -3,7 +3,7 @@
 Widget::Widget(QWidget *parent)
     : QWidget(parent)
 {
-    setWindowTitle("Démineur");
+    setWindowTitle("DÃ©mineur");
     generateComponent();
     manageComponent();
     manageLayout();
